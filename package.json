@@ -1,0 +1,34 @@
+{
+  "name": "calc-app-baiju",
+  "version": "0.0.0",
+  "description": "baiju test application for 'yo node'",
+  "homepage": "",
+  "repository": "baijuachari/calc-app-baiju",
+  "author": {
+    "name": "Baiju Achari",
+    "email": "baijuachari@gmail.com",
+    "url": "https://github.com/baijuachari/calc-app-baiju.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib\\index.js",
+  "keywords": [
+    "yo",
+    "node"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0"
+}
